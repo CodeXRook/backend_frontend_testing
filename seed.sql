@@ -1,16 +1,16 @@
-DROP DATABASE if exists backend_todolist
-CREATE DATABASE backend_todolist
+DROP DATABASE if exists todolist;
+CREATE DATABASE todolist;
 
-\c
+\c todolist
 
-CREATE TABLE users (
+    CREATE TABLE users (
     id SERIAL PRIMARY KEY,
-    email VARCHAR NOT NULL,
-    token VARCHAR 
-);
+      email VARCHAR NOT NULL,
+      token VARCHAR 
+  );
 
-CREATE TABLE listitems (
+    CREATE TABLE todolistitems (
     id SERIAL PRIMARY KEY,
-    todo VARCHAR NOT NULL,
-    user_id INT REFERENCES users(id)
-);
+     todo VARCHAR NOT NULL,
+      user_id INT REFERENCES users(id)
+  );
