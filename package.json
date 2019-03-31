@@ -1,0 +1,28 @@
+{
+  "name": "backend_todolist",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "jest": "^24.5.0",
+    "nodemon": "^1.18.10",
+    "pg-promise": "^8.6.4"
+  },
+  "devDependencies": {
+  "jest":"^24.5.0", 
+    "nodemon":"1.18.10" 
+  },
+  
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CodeXRook/backend_frontend_testing.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CodeXRook/backend_frontend_testing/issues"
+  },
+  "homepage": "https://github.com/CodeXRook/backend_frontend_testing#readme"
+}
