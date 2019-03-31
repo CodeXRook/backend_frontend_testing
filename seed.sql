@@ -6,7 +6,7 @@ CREATE DATABASE backend_todolist
 CREATE TABLE users (
     id SERIAL PRIMARY KEY,
     email VARCHAR NOT NULL,
-    
+    token VARCHAR NOT NULL
 )
 
 CREATE TABLE listitems (
