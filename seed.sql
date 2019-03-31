@@ -11,6 +11,6 @@ CREATE TABLE users (
 
 CREATE TABLE listitems (
     id SERIAL PRIMARY KEY,
-    email VARHCAR NOT NULL,
-    token VARCHAR
+    todo VARHCAR NOT NULL,
+    user_id INT REFERENCES users(id)
 )
