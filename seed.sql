@@ -10,5 +10,6 @@ CREATE TABLE users (
 )
 
 CREATE TABLE listitems (
-
+    id SERIAL PRIMARY KEY,
+    email VARHCAR NOT NULL,
 )
